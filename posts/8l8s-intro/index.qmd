@@ -1,0 +1,17 @@
+---
+title: "8 Lessons In 8 Semesters: Introduction"
+author: "Diarmuid Brady"
+date: "2024-01-02"
+categories: [8 Lessons In 8 Semesters - A College Life Reflection]
+image: "image.jpg"
+---
+
+When I was younger, a recurring phrase I often heard was, "Your college years are some of the best years of your life." Me being me, I took this assertion quite seriously. If college was significantly valuable, I was determined to seize every opportunity it presented. I adopted an iterative approach, leveraging my experiences from past semesters alongside advice I received from others to inform my approach to each subsequent term. 
+
+Upon reflection, I find this approach similar to a subsection of Artificial Intelligence called [Reinforcement Learning](https://www.geeksforgeeks.org/what-is-reinforcement-learning/), a concept ironically inspired by human learning. In this analogy, I acted as the Agent, navigating college life, which served as the Environment with each semester being each time step T. The beginning of each semester marked the State. My actions within each semester comprised the Action. The strategy I adopted each term became the Policy. How I felt at the term's conclusion represented the Reward. Meanwhile, my expected emotional state, given a particular strategy within a semester, resembled the Value Function. My introspective process at the end of each semester mirrored the workings of a Learning Algorithm (my brain, I suppose). 
+
+Similar to any reinforcement learning algorithm, I had to find a balance between exploration (trying new things) and exploitation (sticking with what I knew). Throughout the first three years, I struggled to find what was right for me. But, with some persistent experimentation and self-reflection, I managed to find my place. I learned one key lesson from each semester, culminating in eight lessons that I intend to share across eight blog posts over the next eight weeks (credit to [Deborah](https://djon.info/) for that idea). 
+
+Each year of my college experience revolved around a specific theme: Year 1 focused on *Relationships*, Year 2 delved into *Lifestyle*, Year 3 centred on *Career*, and Year 4 encapsulated *Growth*, bringing together aspects from the previous three years. 
+
+My aspiration with these posts is that they are valuable. I hope that reading about the lessons I've learned from my life can help you in navigating yours. To support your self-reflection, I’ll share three introspective questions each week that I asked myself at the time of learning each lesson. By answering these questions honestly, you may uncover blind spots that have been holding you back in surprising ways.
