@@ -16,7 +16,7 @@ about:
 
 ---
 
-Welcome to The Tenacious Life! I believe a tenacious life involves pursuing ambitious goals with determination and action. I'm Diarmuid Brady a curious and passionate data scientist. Through my blog, I hope to inspire people to achieve their goals through relatable, practical, and engaging content centred around my curiosity.
+Welcome to The Tenacious Life! I'm Diarmuid Brady, a curious and passionate data scientist. I believe a tenacious life involves pursuing ambitious goals with determination and action. Through my blog, I hope to inspire people to achieve their goals through relatable, practical, and engaging content centred around my curiosity.
 
 
-My curiosity drives me to explore a diverse range of topics including data science, self-development, and film and music to name a few. I'm excited to connect with people who share this curiosity. Please feel free to reach out with any thoughts, suggestions, or advice you might have.
+My curiosity drives me to learn, build and teach things from a diverse range of topics including data science, self-development, and film to name a few. I'm interested in connecting with other tenacious and curious people. Please feel free to reach out with any thoughts, suggestions, or advice you might have.
