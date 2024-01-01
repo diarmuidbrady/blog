@@ -1,1 +1,1 @@
-Sitemap: https://github.com/diarmuidbrady/blog/sitemap.xml
+Sitemap: https://diarmuidbrady.github.io/blog/sitemap.xml
