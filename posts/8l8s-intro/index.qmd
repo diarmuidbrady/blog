@@ -1,9 +1,9 @@
 ---
 title: "8 Lessons In 8 Semesters: Introduction"
 author: "Diarmuid Brady"
-date: "2024-01-02"
+date: "2024-01-08"
 categories: [8 Lessons In 8 Semesters - A College Life Reflection]
-image: "image.jpg"
+image: "reinforcement-learning.png"
 ---
 
 When I was younger, a recurring phrase I often heard was, "Your college years are some of the best years of your life." Me being me, I took this assertion quite seriously. If college was significantly valuable, I was determined to seize every opportunity it presented. I adopted an iterative approach, leveraging my experiences from past semesters alongside advice I received from others to inform my approach to each subsequent term. 
