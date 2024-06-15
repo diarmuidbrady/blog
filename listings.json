@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/python-course/index.html",
       "/posts/chatgpt-p3/index.html",
       "/posts/chatgpt-p2/index.html",
       "/posts/chatgpt-p1/index.html",
