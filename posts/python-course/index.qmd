@@ -1,0 +1,44 @@
+---
+title: "After 5 years of Python, here’s what a beginner course taught me."
+author: "Diarmuid Brady"
+date: "2024-06-14"
+categories: [Can ChatGPT Be Trusted?]
+image: "python-course.png"
+draft: False
+---
+
+
+After covering python through several modules in python in college, I consider myself to have a strong grasp of the basics. Through taking this course, Python For Data Science, AI & Development, I got opportunity to refresh my understanding of the basics and remind myself of details that I had forgotten or rarely use.
+
+## String fun
+
+`\r` is a carriage return. It is particularly useful in string manipulation.
+
+## Sorting 
+
+`sort` is an inplace function, this means it changes the variable without needing to assign it to another variable or to itself (recursively).
+
+`sorted` is not an inplace function, instead it creates a new data structure which you can assign to a new variable.
+
+As a data scientist, the pandas library is my toolkit of choice for data wrangling and it has its own sorting function `sort_values`. It contains a boolean parameter, like many pandas functions (`reset_index`, `dropna`, `replace`), called `inplace` which as you can probably guess dictates whether the function works in-place or assigns to a variable.
+
+## Dictionary things
+
+- ** in function parentheses, indicates the parameters are contained in a dictionary.
+- The `get()` function handles KeyErrors by return null, however using the index will return a `KeyError`.
+
+## Files stuff
+
+When opening files, you can choose how to work with the file
+
+- `‘r’` is to simply read only
+- `‘w’` is to write only.
+- `‘a’` is to append only
+
+But little did I know, there are a few other sneaky options, I had missed.
+
+- `‘r+’` is to read as a default but then you can write or append. So you will rewrite at the position you are at.
+- `‘w+’` is to write as a default but you can also read. Not when you do write it will erase all the content in the file, you’re basically opening a new file, so careful now!
+- `‘a+’` is to append as a default but you can also read. This jumps to the end and adds on whatever you like.
+
+When reading, writing and appending on a file, there are a few things you should know. You are always at some position. As default, reading and writing start at the beginning and append defaults to the end of the file. But if you make changes, your position will change. Now what do you do! Don’t there’s a function for that too. `tell()` returns the position you are in the file. If you want to move to a position, use `seek()` by providing an `offset`, the distance you to move, and `from`, where you will move from, either the beginning, your current position, or the end). That’s a smart way to do I think.
