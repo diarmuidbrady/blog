@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  favicon: icon.png
+  favicon: favicon.png
   title: "Blog"
   navbar:
     right:

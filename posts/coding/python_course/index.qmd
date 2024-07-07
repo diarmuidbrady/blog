@@ -1,0 +1,305 @@
+---
+title: "After 5 years of Python, here’s what a beginner course taught me."
+author: "Diarmuid Brady"
+date: "2024-07-08"
+categories: [Coding]
+image: "python_course.png"
+draft: False
+---
+
+When you observe masters of any skill, they always have a strong grasp of the fundamentals. 
+
+But when we’re learning new skills, we’re eager to move on to the most exciting areas. We get distracted by the attractive parts of the skill, we neglect the simple basics, and this stunts our progress. I believe that to master any skill, you must continually refine the basics because the highest peak has the strongest base.
+
+Python was a large aspect of my BSc in Data Science. I've continued to strengthen my basics through internships, personal projects, and in my current job. However, I've noticed I've become habitual in my choice of tools, using the same knowledge repeatedly. The course, "Python For Data Science, AI & Development" on Coursera, exposed the gaps in my knowledge and refreshed my understanding of the core topics.
+
+### Learning Outcomes
+You'll learn something interesting in all three sections.
+
+1. [Make the cool loading symbol you see when downloading new libraries.](#escape--the-syntaxerror-)
+2. [Handle the invalid key error in dictionaries effectively.](#get-rid-of-the-keyerror)
+3. [Design better functions.](#amazing-arguments)
+
+::: {.callout-caution title="Disclaimer..."}
+This is not a Python tutorial, you need some Python knowledge. Think of this as a curious exploration of random areas of Python.
+:::
+
+## Escape `\` the *SyntaxError* !
+
+When working with strings, the escape character `\` (backslash) is a handy way to include special characters in your strings. The backslash changes the meaning of the next character. You can also avoid syntax errors by using the backslash!
+
+In Python, apostrophes and quotation marks must come in pairs. Unpaired quotation marks create syntax errors. The example below returns a syntax error because the apostrophe in "friend's" is unmatched.
+
+```python
+print('Jimmy borrowed his friend's phone')
+
+```
+
+```python
+SyntaxError: unterminated string literal (detected at line 1)
+```
+
+To solve this dilemma, use one of the following:
+
+```python
+# Just use double quotes silly!
+print("Jimmy borrowed his friend's phone.")
+
+# Triple single quotes to allow multi-line strings.
+print('''
+Jimmy borrowed his friend's phone.
+''')
+                                            
+# Triple double quotes if I'm feeling fancy ¯\_(ツ)_/¯
+# Or if it's a docstring as per PEP 257
+print("""
+Jimmy borrowed his friend's phone.
+""")
+```
+
+But wait! There's one more I had forgotten about...the escape character.
+
+```{python}
+print('Jimmy borrowed his friends\'s phone.')
+```
+
+Voilà! Problem solved. For the record, double quotes is my preference for greater readability.
+
+---
+
+There are many escape characters, including `\t` (tab space), `\n` (newline) and `\'`. Another escape character is the carriage return, `\r`. It moves the cursor to the start of the current line and proceeds to overwrite the text.
+
+Now you can create the cool loading symbol that appears when installing a library from Pip or Conda!
+
+Run the following code in a Python file, and you'll see the loading symbol on the right.
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+```python
+import time
+
+loading = ['|', '/', '-', '\\']
+for i in range(50):
+    print(f"{loading[i % len(loading)]}\r")
+    time.sleep(0.2)
+```
+
+:::
+
+::: {.column width="10%"}
+
+
+:::
+
+::: {.column width="25%"}
+ 
+<div style="text-align: center;padding-top:60px">
+<img src="rotating-line.gif" alt="Loading symbol" style="width: 150px; height: auto; border: 2px solid white;">
+</div>
+:::
+
+:::
+
+
+## `get()` rid of the *KeyError*!
+Dictionaries are one of my favourite data structures in Python. They are intuitive, useful, and efficient. After creating a dictionary, you can add, update, or delete key-value pairs. Please see the code example below.
+
+::: {.callout-note title="Colour or color? That is the question."}
+I write colour as color when coding Python because the language is written in American English as opposed to UK English. I thought I would point this out before the grammar police get me!
+:::
+
+```{python}
+# Create the dictionary using empty curly brackets.
+dict_color_code = {}
+
+# Add a key-value pair using square brackets of white and the hex color code
+dict_color_code['white'] = '#FFFFFF'
+
+# Find the hex color code of white using square brackets
+print(f"White hex color code: {dict_color_code['white']}")
+
+# Let's update the value for white
+dict_color_code['white'] = '#F8F6F0'
+
+print(f"New value for white: {dict_color_code['white']}")
+
+# Now let's remove white
+# Pop will return the value of the key 'white'
+dict_color_code.pop('white')
+
+```
+
+Above, I demonstrated the basic actions of the dictionary. We finished by deleting the key we had created. Now let's try to fetch that key-value.
+```python
+# Check that white is not there
+print(dict_color_code['white'])
+```
+```python
+KeyError: 'white'
+```
+
+Imagine that I want to avoid this error. I could check if the key is in the dictionary first:
+
+```{python}
+k = 'white'
+if k in dict_color_code:
+    print(dict_color_code[k])
+
+```
+
+Lucky for us, we have the `get()` dictionary method. `get()` returns the value of a given key and `None` if the key doesn't exist.
+
+```{python}
+print(dict_color_code.get('white'))
+```
+
+These are two solutions to the same problem. I prefer the `get()` method as it handles non-existent keys. The approach you choose is up to you.
+
+## Amazing Arguments
+A function is a great way of automating mundane tasks. They are a key part of writing concise, readable, and reproducible code.
+
+In recent versions of Python, there have been updates made to how arguments are used. Firstly, there are two types of arguments:
+
+- Positional: passed first in the function call and are identified using order.
+- Keyword: passed after positional arguments and are identified by name.
+
+::: {.callout-important title="Important Rule"} 
+
+Postional arguments must ALWAYS come before keyword arguments. Specifying a positional argument before keyword arguments results in an error.
+
+:::
+
+Let's define a handy function below. I actually used this the other day!
+
+```{python}
+def check_substring(
+    s:str               # a string
+    ,substrings:[]      # a list of substrings
+    ,all_strings: bool = False  # a boolean to choose between all and any
+    ):
+    """
+    Checks if a list of substrings is present in a string. 
+    If all_strings, all substrings must be present in s to return True.
+    Else, there must be at least one occurance to return True.
+    """
+
+    if all_strings: return all([substring in s for substring in substrings])
+    else: return any([substring in s for substring in substrings])
+```
+
+This function has three parameters. All arguments can be specified as positional or keyword. `all_strings` is the only argument with a default value (False).
+
+```{python}
+substrings = ['man', 'ant', 'who']
+s = 'Maniac is a brilliant TV show.' # Some substrings present
+
+# This is how I call the function whe  all_strings is False
+print(f'any substrings in s: {check_substring(s, substrings)}')
+
+# This is how I call the funciton when all_strings is True
+print(f'all substrings in s: {check_substring(s, substrings, all_strings=True)}')
+
+# I usually use positional arguments for the first few, then keywords
+# Let's use all keywords to show that works too
+print(f"any substrings in s: {check_substring(s=s, substrings=substrings, all_strings=False)}")
+
+# And all positional for completeness
+print(f"any substrings in s: {check_substring(s, substrings, False)}")
+```
+
+Now I'd like to make two changes.
+
+1. I want all_strings to be a keyword-only argument.
+2. I want to pass each substring as an argument rather than as part of a list. 
+
+`*` solves both issues. See the example below.
+
+```{python}
+def check_substring(
+    s:str               # a string
+    ,*substrings      # an interable tuple of substrings (note: *)
+    ,all_strings: bool = False  # a boolean to choose between all and any
+    ):
+    """
+    Checks if a tuple of substrings is present in a string. 
+    If all, all substrings must be present in s to return True.
+    Else, there must be at least one occurance to return True.
+    """
+
+    if all_strings: return all([substring in s for substring in substrings])
+    else: return any([substring in s for substring in substrings])
+```
+
+Now all_strings must be passed as a keyword (never positional). This is helpful because code readability is important. While this function only has three arguments, there are many functions with too many arguments to count. Thus, using positional arguments wouldn't make sense and would be a pain to decipher in those cases.
+```{python}
+s = 'Maniac is a brilliant TV show.' # Some substrings present
+
+# Now we can add substrings manually to the function call.
+print(f"any substrings in s: {check_substring(s, 'man', 'ant', 'who')}")
+```
+
+Everything works dandy above, but what happens if we do pass all_substrings as a positional argument?
+
+Let's fuck around and find out!
+```python
+# now let's change all to True
+print(f"all substrings in s: {check_substring(s, 'li', 'gr', 'te', True)}")
+```
+
+```python
+TypeError: 'in <string>' requires string as left operand, not bool
+```
+
+Python interpreted False as being part of the *substrings argument. It expected a string but instead got a bool (and it was not happy). When we use `*`, all succeeding positional arguments are assumed to be part of the same set (in this case, substrings). That's why all the remaining arguments must be passed using keywords.
+
+We could remove the default value for `all_strings`, then it'd be a required (rather than optional) keyword-only argument. 
+
+`**` collects all the optional keyword-only arguments into a dictionary. With `**`, there is no need to specify all keywords that have default values. The code will be more concise as a result.
+
+```{python}
+def get_connection_string(self, **kwargs):
+    """Get the connection string for a database"""
+    con_string = f"{kwargs.get('user')}:{kwargs.get('password')}\
+        @{kwargs.get('host')}/{kwargs.get('myschema')}"
+
+    return con_string
+
+```
+
+We have now covered four types of arguments.
+
+| Label | Argument Type |
+|:-----:|:-------------|
+|1| Positional arguments|
+|2| Tuple of positional arguments|
+|3| Keyword-only arguments|
+|4| Dictionary of optional keyword arguments|
+
+```python
+# parg: Positional argument
+# kwarg: Keyword arguments
+
+def function_with_all_argument_types(
+    #<----  1  ---->
+    arg1, arg2, ..., 
+
+    #<- 2 ->
+    *args, 
+
+    #<------ 3 ------->
+    kwarg1, kwarg2, ..., 
+
+    #<-- 4 -->
+    **kwargs
+    )
+    return
+```
+
+## Conclusion
+That wraps up this post. I hope you learned something new from these three random Python topics. 
+
+Now you know how to use the escape character in string manipulation, the get() method when using dictionaries, and all types of arguments when writing a function.
+
+If you have any feedback on what you learned, an error you spotted, or ideas for what you'd like me to write about next, let me know!

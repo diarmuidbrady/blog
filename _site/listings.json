@@ -2,19 +2,19 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/python-course/index.html",
-      "/posts/chatgpt-p3/index.html",
-      "/posts/chatgpt-p2/index.html",
-      "/posts/chatgpt-p1/index.html",
-      "/posts/8l8s-l8/index.html",
-      "/posts/8l8s-l7/index.html",
-      "/posts/8l8s-l6/index.html",
-      "/posts/8l8s-l5/index.html",
-      "/posts/8l8s-l4/index.html",
-      "/posts/8l8s-l3/index.html",
-      "/posts/8l8s-l2/index.html",
-      "/posts/8l8s-l1/index.html",
-      "/posts/8l8s-intro/index.html"
+      "/posts/coding/python_course/index.html",
+      "/posts/chatgpt-evaluation/chatgpt-p3/index.html",
+      "/posts/chatgpt-evaluation/chatgpt-p2/index.html",
+      "/posts/chatgpt-evaluation/chatgpt-p1/index.html",
+      "/posts/8l8s/8l8s-l8/index.html",
+      "/posts/8l8s/8l8s-l7/index.html",
+      "/posts/8l8s/8l8s-l6/index.html",
+      "/posts/8l8s/8l8s-l5/index.html",
+      "/posts/8l8s/8l8s-l4/index.html",
+      "/posts/8l8s/8l8s-l3/index.html",
+      "/posts/8l8s/8l8s-l2/index.html",
+      "/posts/8l8s/8l8s-l1/index.html",
+      "/posts/8l8s/8l8s-intro/index.html"
     ]
   }
 ]
