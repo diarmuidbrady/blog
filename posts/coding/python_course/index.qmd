@@ -302,4 +302,6 @@ That wraps up this post. I hope you learned something new from these three rando
 
 Now you know how to use the escape character in string manipulation, the get() method when using dictionaries, and all types of arguments when writing a function.
 
+Think about a skill you take for granted, what could you do to refresh your basics?
+
 If you have any feedback on what you learned, an error you spotted, or ideas for what you'd like me to write about next, let me know!

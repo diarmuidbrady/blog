@@ -4,6 +4,7 @@ project:
 website:
   favicon: favicon.png
   title: "Blog"
+  google-analytics: "G-Y9K5WWKHZ3"
   navbar:
     right:
       - about.qmd
