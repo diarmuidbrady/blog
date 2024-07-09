@@ -4,7 +4,7 @@ author: "Diarmuid Brady"
 date: "2024-07-08"
 categories: [Coding]
 image: "python_course.png"
-draft: False
+draft: True
 ---
 
 When you observe masters of any skill, they always have a strong grasp of the fundamentals. 
