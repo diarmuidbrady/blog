@@ -1,63 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://diarmuidbrady.github.io/blog/about.html</loc>
-    <lastmod>2024-07-09T17:09:19.727Z</lastmod>
-  </url>
-  <url>
-    <loc>https://diarmuidbrady.github.io/blog/posts/8l8s/8l8s-l6/index.html</loc>
-    <lastmod>2024-07-09T17:09:19.735Z</lastmod>
-  </url>
-  <url>
-    <loc>https://diarmuidbrady.github.io/blog/posts/8l8s/8l8s-l1/index.html</loc>
-    <lastmod>2024-07-09T17:09:19.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://diarmuidbrady.github.io/blog/posts/8l8s/8l8s-l5/index.html</loc>
-    <lastmod>2024-07-09T17:09:19.735Z</lastmod>
-  </url>
-  <url>
-    <loc>https://diarmuidbrady.github.io/blog/posts/8l8s/8l8s-l8/index.html</loc>
-    <lastmod>2024-07-09T17:09:19.735Z</lastmod>
-  </url>
-  <url>
-    <loc>https://diarmuidbrady.github.io/blog/posts/8l8s/8l8s-l3/index.html</loc>
-    <lastmod>2024-07-09T17:09:19.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://diarmuidbrady.github.io/blog/posts/chatgpt-evaluation/chatgpt-p3/index.html</loc>
-    <lastmod>2024-07-09T17:09:19.747Z</lastmod>
+    <loc>https://diarmuidbrady.github.io/blog/index.html</loc>
+    <lastmod>2024-07-09T17:21:46.414Z</lastmod>
   </url>
   <url>
     <loc>https://diarmuidbrady.github.io/blog/posts/chatgpt-evaluation/chatgpt-p1/index.html</loc>
-    <lastmod>2024-07-09T17:09:19.739Z</lastmod>
+    <lastmod>2024-07-09T17:21:46.426Z</lastmod>
   </url>
   <url>
     <loc>https://diarmuidbrady.github.io/blog/posts/chatgpt-evaluation/chatgpt-p2/index.html</loc>
-    <lastmod>2024-07-09T17:09:19.743Z</lastmod>
-  </url>
-  <url>
-    <loc>https://diarmuidbrady.github.io/blog/posts/coding/python_course/index.html</loc>
-    <lastmod>2024-07-09T17:09:19.747Z</lastmod>
+    <lastmod>2024-07-09T17:21:46.434Z</lastmod>
   </url>
   <url>
     <loc>https://diarmuidbrady.github.io/blog/posts/8l8s/8l8s-l7/index.html</loc>
-    <lastmod>2024-07-09T17:09:19.735Z</lastmod>
+    <lastmod>2024-07-09T17:21:46.422Z</lastmod>
   </url>
   <url>
     <loc>https://diarmuidbrady.github.io/blog/posts/8l8s/8l8s-l2/index.html</loc>
-    <lastmod>2024-07-09T17:09:19.731Z</lastmod>
+    <lastmod>2024-07-09T17:21:46.422Z</lastmod>
+  </url>
+  <url>
+    <loc>https://diarmuidbrady.github.io/blog/posts/8l8s/8l8s-l3/index.html</loc>
+    <lastmod>2024-07-09T17:21:46.422Z</lastmod>
+  </url>
+  <url>
+    <loc>https://diarmuidbrady.github.io/blog/posts/8l8s/8l8s-l5/index.html</loc>
+    <lastmod>2024-07-09T17:21:46.422Z</lastmod>
+  </url>
+  <url>
+    <loc>https://diarmuidbrady.github.io/blog/about.html</loc>
+    <lastmod>2024-07-09T17:21:46.414Z</lastmod>
   </url>
   <url>
     <loc>https://diarmuidbrady.github.io/blog/posts/8l8s/8l8s-l4/index.html</loc>
-    <lastmod>2024-07-09T17:09:19.731Z</lastmod>
+    <lastmod>2024-07-09T17:21:46.422Z</lastmod>
+  </url>
+  <url>
+    <loc>https://diarmuidbrady.github.io/blog/posts/8l8s/8l8s-l1/index.html</loc>
+    <lastmod>2024-07-09T17:21:46.418Z</lastmod>
+  </url>
+  <url>
+    <loc>https://diarmuidbrady.github.io/blog/posts/8l8s/8l8s-l8/index.html</loc>
+    <lastmod>2024-07-09T17:21:46.426Z</lastmod>
   </url>
   <url>
     <loc>https://diarmuidbrady.github.io/blog/posts/8l8s/8l8s-intro/index.html</loc>
-    <lastmod>2024-07-09T17:09:19.731Z</lastmod>
+    <lastmod>2024-07-09T17:21:46.418Z</lastmod>
   </url>
   <url>
-    <loc>https://diarmuidbrady.github.io/blog/index.html</loc>
-    <lastmod>2024-07-09T17:09:19.727Z</lastmod>
+    <loc>https://diarmuidbrady.github.io/blog/posts/8l8s/8l8s-l6/index.html</loc>
+    <lastmod>2024-07-09T17:21:46.422Z</lastmod>
+  </url>
+  <url>
+    <loc>https://diarmuidbrady.github.io/blog/posts/chatgpt-evaluation/chatgpt-p3/index.html</loc>
+    <lastmod>2024-07-09T17:21:46.438Z</lastmod>
   </url>
 </urlset>
