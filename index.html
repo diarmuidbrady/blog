@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.54">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The Tenacious Life – Blog</title>
+<title>Blog - The Tenacious Life</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -48,13 +48,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
+  "limit": 20,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -63,7 +57,6 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -108,35 +101,8 @@ gtag('js', new Date());
 gtag('config', 'G-Y9K5WWKHZ3', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -144,38 +110,38 @@ window.Quarto = {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
+      <div class="navbar-brand-container">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Blog</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/diarmuidbrady/"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/diarmuidbrady/" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
-<span class="menu-text"></span></a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://instagram.com/thetenaciouslife_"> <i class="bi bi-instagram" role="img">
+    <a class="nav-link" href="https://instagram.com/thetenaciouslife_" rel="" target=""><i class="bi bi-instagram" role="img">
 </i> 
-<span class="menu-text"></span></a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
+          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -188,7 +154,7 @@ window.Quarto = {
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
       
     
@@ -212,33 +178,34 @@ window.Quarto = {
 
 
 
-
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Coding" data-listing-date-sort="1720396800000" data-listing-file-modified-sort="1720543383491" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1704">
+<div class="quarto-post image-right" data-index="0" data-categories="Coding" data-listing-date-sort="1720393200000" data-listing-file-modified-sort="1720369123624" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9">
 <div class="thumbnail">
-<p><a href="./posts/coding/python_course/index.html" class="no-external"></a></p><a href="./posts/coding/python_course/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/coding/python_course/python_course.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/coding/python_course/index.html" class="no-external"></a></p>
+<p><a href="./posts/coding/python_course/index.html"> <img src="./posts/coding/python_course/python_course.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./posts/coding/python_course/index.html">
 <h3 class="no-anchor listing-title">
-<a href="./posts/coding/python_course/index.html" class="no-external">After 5 years of Python, here’s what a beginner course taught me.</a>
+After 5 years of Python, here’s what a beginner course taught me.
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/coding/python_course/index.html" class="no-external"></a>
+
 </div>
+</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Coding'); return false;">
 Coding
 </div>
 </div>
+<a href="./posts/coding/python_course/index.html">
 <div class="listing-description">
-<a href="./posts/coding/python_course/index.html" class="no-external">When you observe masters of any skill, they always have a strong grasp of the fundamentals.</a>
+When you observe masters of any skill, they always have a strong grasp of the fundamentals.
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./posts/coding/python_course/index.html" class="no-external">
+<a href="./posts/coding/python_course/index.html">
 <div class="listing-date">
 Jul 8, 2024
 </div>
@@ -248,30 +215,32 @@ Diarmuid Brady
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Can ChatGPT Be Trusted?" data-listing-date-sort="1717718400000" data-listing-file-modified-sort="1720543383491" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1129">
+<div class="quarto-post image-right" data-index="1" data-categories="Can ChatGPT Be Trusted?" data-listing-date-sort="1717714800000" data-listing-file-modified-sort="1720366729610" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
 <div class="thumbnail">
-<p><a href="./posts/chatgpt-evaluation/chatgpt-p3/index.html" class="no-external"></a></p><a href="./posts/chatgpt-evaluation/chatgpt-p3/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/chatgpt-evaluation/chatgpt-p3/chatgpt-part3.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/chatgpt-evaluation/chatgpt-p3/index.html" class="no-external"></a></p>
+<p><a href="./posts/chatgpt-evaluation/chatgpt-p3/index.html"> <img src="./posts/chatgpt-evaluation/chatgpt-p3/chatgpt-part3.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./posts/chatgpt-evaluation/chatgpt-p3/index.html">
 <h3 class="no-anchor listing-title">
-<a href="./posts/chatgpt-evaluation/chatgpt-p3/index.html" class="no-external">Can ChatGPT Be Trusted? Part 3</a>
+Can ChatGPT Be Trusted? Part 3
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/chatgpt-evaluation/chatgpt-p3/index.html" class="no-external"></a>
+
 </div>
+</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Can ChatGPT Be Trusted?'); return false;">
 Can ChatGPT Be Trusted?
 </div>
 </div>
+<a href="./posts/chatgpt-evaluation/chatgpt-p3/index.html">
 <div class="listing-description">
-<a href="./posts/chatgpt-evaluation/chatgpt-p3/index.html" class="no-external">My concern isn’t that ChatGPT can be wrong, but that people struggle to validate information.</a>
+My concern isn’t that ChatGPT can be wrong, but that people struggle to validate information.
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./posts/chatgpt-evaluation/chatgpt-p3/index.html" class="no-external">
+<a href="./posts/chatgpt-evaluation/chatgpt-p3/index.html">
 <div class="listing-date">
 Jun 7, 2024
 </div>
@@ -281,30 +250,32 @@ Diarmuid Brady
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Can ChatGPT Be Trusted?" data-listing-date-sort="1716508800000" data-listing-file-modified-sort="1720543383487" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1623">
+<div class="quarto-post image-right" data-index="2" data-categories="Can ChatGPT Be Trusted?" data-listing-date-sort="1716505200000" data-listing-file-modified-sort="1716577978802" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9">
 <div class="thumbnail">
-<p><a href="./posts/chatgpt-evaluation/chatgpt-p2/index.html" class="no-external"></a></p><a href="./posts/chatgpt-evaluation/chatgpt-p2/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/chatgpt-evaluation/chatgpt-p2/chatgpt-part2.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/chatgpt-evaluation/chatgpt-p2/index.html" class="no-external"></a></p>
+<p><a href="./posts/chatgpt-evaluation/chatgpt-p2/index.html"> <img src="./posts/chatgpt-evaluation/chatgpt-p2/chatgpt-part2.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./posts/chatgpt-evaluation/chatgpt-p2/index.html">
 <h3 class="no-anchor listing-title">
-<a href="./posts/chatgpt-evaluation/chatgpt-p2/index.html" class="no-external">Can ChatGPT Be Trusted? Part 2</a>
+Can ChatGPT Be Trusted? Part 2
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/chatgpt-evaluation/chatgpt-p2/index.html" class="no-external"></a>
+
 </div>
+</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Can ChatGPT Be Trusted?'); return false;">
 Can ChatGPT Be Trusted?
 </div>
 </div>
+<a href="./posts/chatgpt-evaluation/chatgpt-p2/index.html">
 <div class="listing-description">
-<a href="./posts/chatgpt-evaluation/chatgpt-p2/index.html" class="no-external">ChatGPT can waffle through subjective questions, but precise details expose its flaws.</a>
+ChatGPT can waffle through subjective questions, but precise details expose its flaws.
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./posts/chatgpt-evaluation/chatgpt-p2/index.html" class="no-external">
+<a href="./posts/chatgpt-evaluation/chatgpt-p2/index.html">
 <div class="listing-date">
 May 24, 2024
 </div>
@@ -314,30 +285,32 @@ Diarmuid Brady
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="Can ChatGPT Be Trusted?" data-listing-date-sort="1715904000000" data-listing-file-modified-sort="1720543383479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1271">
+<div class="quarto-post image-right" data-index="3" data-categories="Can ChatGPT Be Trusted?" data-listing-date-sort="1715900400000" data-listing-file-modified-sort="1715881818330" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
 <div class="thumbnail">
-<p><a href="./posts/chatgpt-evaluation/chatgpt-p1/index.html" class="no-external"></a></p><a href="./posts/chatgpt-evaluation/chatgpt-p1/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/chatgpt-evaluation/chatgpt-p1/chatgpt-p1.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/chatgpt-evaluation/chatgpt-p1/index.html" class="no-external"></a></p>
+<p><a href="./posts/chatgpt-evaluation/chatgpt-p1/index.html"> <img src="./posts/chatgpt-evaluation/chatgpt-p1/chatgpt-p1.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./posts/chatgpt-evaluation/chatgpt-p1/index.html">
 <h3 class="no-anchor listing-title">
-<a href="./posts/chatgpt-evaluation/chatgpt-p1/index.html" class="no-external">Can ChatGPT Be Trusted? Part 1</a>
+Can ChatGPT Be Trusted? Part 1
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/chatgpt-evaluation/chatgpt-p1/index.html" class="no-external"></a>
+
 </div>
+</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Can ChatGPT Be Trusted?'); return false;">
 Can ChatGPT Be Trusted?
 </div>
 </div>
+<a href="./posts/chatgpt-evaluation/chatgpt-p1/index.html">
 <div class="listing-description">
-<a href="./posts/chatgpt-evaluation/chatgpt-p1/index.html" class="no-external">Is ChatGPT really the expert it claims to be? Read on to find out and learn something new and unexpected!</a>
+Is ChatGPT really the expert it claims to be? Read on to find out and learn something new and unexpected!
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./posts/chatgpt-evaluation/chatgpt-p1/index.html" class="no-external">
+<a href="./posts/chatgpt-evaluation/chatgpt-p1/index.html">
 <div class="listing-date">
 May 17, 2024
 </div>
@@ -347,30 +320,32 @@ Diarmuid Brady
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="8 Lessons In 8 Semesters" data-listing-date-sort="1709510400000" data-listing-file-modified-sort="1720543383479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1622">
+<div class="quarto-post image-right" data-index="4" data-categories="8 Lessons In 8 Semesters" data-listing-date-sort="1709510400000" data-listing-file-modified-sort="1715881900650" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9">
 <div class="thumbnail">
-<p><a href="./posts/8l8s/8l8s-l8/index.html" class="no-external"></a></p><a href="./posts/8l8s/8l8s-l8/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/8l8s/8l8s-l8/8L8S_Lesson_8.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/8l8s/8l8s-l8/index.html" class="no-external"></a></p>
+<p><a href="./posts/8l8s/8l8s-l8/index.html"> <img src="./posts/8l8s/8l8s-l8/8L8S_Lesson_8.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./posts/8l8s/8l8s-l8/index.html">
 <h3 class="no-anchor listing-title">
-<a href="./posts/8l8s/8l8s-l8/index.html" class="no-external">8 Lessons In 8 Semesters: Lesson 8</a>
+8 Lessons In 8 Semesters: Lesson 8
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/8l8s/8l8s-l8/index.html" class="no-external"></a>
+
 </div>
+</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('8 Lessons In 8 Semesters'); return false;">
 8 Lessons In 8 Semesters
 </div>
 </div>
+<a href="./posts/8l8s/8l8s-l8/index.html">
 <div class="listing-description">
-<a href="./posts/8l8s/8l8s-l8/index.html" class="no-external">💡&nbsp; What do you believe confidence is? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What people, activities or situations impact your confidence either positively or negatively? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Do you believe you could…</a>
+💡&nbsp; What do you believe confidence is? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What people, activities or situations impact your confidence either positively or negatively? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Do you…
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./posts/8l8s/8l8s-l8/index.html" class="no-external">
+<a href="./posts/8l8s/8l8s-l8/index.html">
 <div class="listing-date">
 Mar 4, 2024
 </div>
@@ -380,30 +355,32 @@ Diarmuid Brady
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="8 Lessons In 8 Semesters" data-listing-date-sort="1708905600000" data-listing-file-modified-sort="1720543383475" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="702">
+<div class="quarto-post image-right" data-index="5" data-categories="8 Lessons In 8 Semesters" data-listing-date-sort="1708905600000" data-listing-file-modified-sort="1715881781022" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
 <div class="thumbnail">
-<p><a href="./posts/8l8s/8l8s-l7/index.html" class="no-external"></a></p><a href="./posts/8l8s/8l8s-l7/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/8l8s/8l8s-l7/8L8S_Lesson_7.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/8l8s/8l8s-l7/index.html" class="no-external"></a></p>
+<p><a href="./posts/8l8s/8l8s-l7/index.html"> <img src="./posts/8l8s/8l8s-l7/8L8S_Lesson_7.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./posts/8l8s/8l8s-l7/index.html">
 <h3 class="no-anchor listing-title">
-<a href="./posts/8l8s/8l8s-l7/index.html" class="no-external">8 Lessons In 8 Semesters: Lesson 7</a>
+8 Lessons In 8 Semesters: Lesson 7
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/8l8s/8l8s-l7/index.html" class="no-external"></a>
+
 </div>
+</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('8 Lessons In 8 Semesters'); return false;">
 8 Lessons In 8 Semesters
 </div>
 </div>
+<a href="./posts/8l8s/8l8s-l7/index.html">
 <div class="listing-description">
-<a href="./posts/8l8s/8l8s-l7/index.html" class="no-external">💡&nbsp; What hobbies do you enjoy? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How do your hobbies impact the other areas of your life? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Are there ways to make your hobbies more sociable?</a>
+💡&nbsp; What hobbies do you enjoy? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How do your hobbies impact the other areas of your life? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Are there ways to make your hobbies more sociable?
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./posts/8l8s/8l8s-l7/index.html" class="no-external">
+<a href="./posts/8l8s/8l8s-l7/index.html">
 <div class="listing-date">
 Feb 26, 2024
 </div>
@@ -413,30 +390,32 @@ Diarmuid Brady
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="8 Lessons In 8 Semesters" data-listing-date-sort="1708300800000" data-listing-file-modified-sort="1720543383475" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="516">
+<div class="quarto-post image-right" data-index="6" data-categories="8 Lessons In 8 Semesters" data-listing-date-sort="1708300800000" data-listing-file-modified-sort="1715881778425" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="thumbnail">
-<p><a href="./posts/8l8s/8l8s-l6/index.html" class="no-external"></a></p><a href="./posts/8l8s/8l8s-l6/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/8l8s/8l8s-l6/8L8S_Lesson_6.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/8l8s/8l8s-l6/index.html" class="no-external"></a></p>
+<p><a href="./posts/8l8s/8l8s-l6/index.html"> <img src="./posts/8l8s/8l8s-l6/8L8S_Lesson_6.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./posts/8l8s/8l8s-l6/index.html">
 <h3 class="no-anchor listing-title">
-<a href="./posts/8l8s/8l8s-l6/index.html" class="no-external">8 Lessons In 8 Semesters: Lesson 6</a>
+8 Lessons In 8 Semesters: Lesson 6
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/8l8s/8l8s-l6/index.html" class="no-external"></a>
+
 </div>
+</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('8 Lessons In 8 Semesters'); return false;">
 8 Lessons In 8 Semesters
 </div>
 </div>
+<a href="./posts/8l8s/8l8s-l6/index.html">
 <div class="listing-description">
-<a href="./posts/8l8s/8l8s-l6/index.html" class="no-external">💡&nbsp; What type of people do you work well with? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When pursuing your goals, do your expectations usually meet reality? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What are your career priorities and how…</a>
+💡&nbsp; What type of people do you work well with? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When pursuing your goals, do your expectations usually meet reality? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What are your career…
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./posts/8l8s/8l8s-l6/index.html" class="no-external">
+<a href="./posts/8l8s/8l8s-l6/index.html">
 <div class="listing-date">
 Feb 19, 2024
 </div>
@@ -446,30 +425,32 @@ Diarmuid Brady
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="8 Lessons In 8 Semesters" data-listing-date-sort="1707696000000" data-listing-file-modified-sort="1720543383475" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="512">
+<div class="quarto-post image-right" data-index="7" data-categories="8 Lessons In 8 Semesters" data-listing-date-sort="1707696000000" data-listing-file-modified-sort="1715881775820" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="thumbnail">
-<p><a href="./posts/8l8s/8l8s-l5/index.html" class="no-external"></a></p><a href="./posts/8l8s/8l8s-l5/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/8l8s/8l8s-l5/8L8S_Lesson_5.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/8l8s/8l8s-l5/index.html" class="no-external"></a></p>
+<p><a href="./posts/8l8s/8l8s-l5/index.html"> <img src="./posts/8l8s/8l8s-l5/8L8S_Lesson_5.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./posts/8l8s/8l8s-l5/index.html">
 <h3 class="no-anchor listing-title">
-<a href="./posts/8l8s/8l8s-l5/index.html" class="no-external">8 Lessons In 8 Semesters: Lesson 5</a>
+8 Lessons In 8 Semesters: Lesson 5
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/8l8s/8l8s-l5/index.html" class="no-external"></a>
+
 </div>
+</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('8 Lessons In 8 Semesters'); return false;">
 8 Lessons In 8 Semesters
 </div>
 </div>
+<a href="./posts/8l8s/8l8s-l5/index.html">
 <div class="listing-description">
-<a href="./posts/8l8s/8l8s-l5/index.html" class="no-external">💡&nbsp; How often do you set goals for yourself? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When pursuing your goals, do your expectations usually meet reality? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How do you respond when your expectations…</a>
+💡&nbsp; How often do you set goals for yourself? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When pursuing your goals, do your expectations usually meet reality? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How do…
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./posts/8l8s/8l8s-l5/index.html" class="no-external">
+<a href="./posts/8l8s/8l8s-l5/index.html">
 <div class="listing-date">
 Feb 12, 2024
 </div>
@@ -479,30 +460,32 @@ Diarmuid Brady
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="8 Lessons In 8 Semesters" data-listing-date-sort="1707091200000" data-listing-file-modified-sort="1720543383475" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="667">
+<div class="quarto-post image-right" data-index="8" data-categories="8 Lessons In 8 Semesters" data-listing-date-sort="1707091200000" data-listing-file-modified-sort="1715881772325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
 <div class="thumbnail">
-<p><a href="./posts/8l8s/8l8s-l4/index.html" class="no-external"></a></p><a href="./posts/8l8s/8l8s-l4/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/8l8s/8l8s-l4/8L8S_Lesson_4.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/8l8s/8l8s-l4/index.html" class="no-external"></a></p>
+<p><a href="./posts/8l8s/8l8s-l4/index.html"> <img src="./posts/8l8s/8l8s-l4/8L8S_Lesson_4.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./posts/8l8s/8l8s-l4/index.html">
 <h3 class="no-anchor listing-title">
-<a href="./posts/8l8s/8l8s-l4/index.html" class="no-external">8 Lessons In 8 Semesters: Lesson 4</a>
+8 Lessons In 8 Semesters: Lesson 4
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/8l8s/8l8s-l4/index.html" class="no-external"></a>
+
 </div>
+</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('8 Lessons In 8 Semesters'); return false;">
 8 Lessons In 8 Semesters
 </div>
 </div>
+<a href="./posts/8l8s/8l8s-l4/index.html">
 <div class="listing-description">
-<a href="./posts/8l8s/8l8s-l4/index.html" class="no-external">💡&nbsp; Have you ever tried to improve yourself using elaborate or esoteric changes? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Were you satisfied with the results? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Have you managed to stick with those…<br></a>
+💡&nbsp; Have you ever tried to improve yourself using elaborate or esoteric changes? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Were you satisfied with the results? <br> &nbsp;&nbsp;&nbsp;…<br>
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./posts/8l8s/8l8s-l4/index.html" class="no-external">
+<a href="./posts/8l8s/8l8s-l4/index.html">
 <div class="listing-date">
 Feb 5, 2024
 </div>
@@ -512,30 +495,32 @@ Diarmuid Brady
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="8 Lessons In 8 Semesters" data-listing-date-sort="1706486400000" data-listing-file-modified-sort="1720543383475" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="508">
+<div class="quarto-post image-right" data-index="9" data-categories="8 Lessons In 8 Semesters" data-listing-date-sort="1706486400000" data-listing-file-modified-sort="1715881769750" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="thumbnail">
-<p><a href="./posts/8l8s/8l8s-l3/index.html" class="no-external"></a></p><a href="./posts/8l8s/8l8s-l3/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/8l8s/8l8s-l3/8L8S_Lesson_3.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/8l8s/8l8s-l3/index.html" class="no-external"></a></p>
+<p><a href="./posts/8l8s/8l8s-l3/index.html"> <img src="./posts/8l8s/8l8s-l3/8L8S_Lesson_3.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./posts/8l8s/8l8s-l3/index.html">
 <h3 class="no-anchor listing-title">
-<a href="./posts/8l8s/8l8s-l3/index.html" class="no-external">8 Lessons In 8 Semesters: Lesson 3</a>
+8 Lessons In 8 Semesters: Lesson 3
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/8l8s/8l8s-l3/index.html" class="no-external"></a>
+
 </div>
+</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('8 Lessons In 8 Semesters'); return false;">
 8 Lessons In 8 Semesters
 </div>
 </div>
+<a href="./posts/8l8s/8l8s-l3/index.html">
 <div class="listing-description">
-<a href="./posts/8l8s/8l8s-l3/index.html" class="no-external">💡&nbsp; What is your idea of fun? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Do you believe spending time having fun is important? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How much time do you spend having fun? <br></a>
+💡&nbsp; What is your idea of fun? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Do you believe spending time having fun is important? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How much time do you spend having fun? <br>
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./posts/8l8s/8l8s-l3/index.html" class="no-external">
+<a href="./posts/8l8s/8l8s-l3/index.html">
 <div class="listing-date">
 Jan 29, 2024
 </div>
@@ -545,30 +530,32 @@ Diarmuid Brady
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="8 Lessons In 8 Semesters" data-listing-date-sort="1705881600000" data-listing-file-modified-sort="1720543383475" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="467">
+<div class="quarto-post image-right" data-index="10" data-categories="8 Lessons In 8 Semesters" data-listing-date-sort="1705881600000" data-listing-file-modified-sort="1715881761646" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="thumbnail">
-<p><a href="./posts/8l8s/8l8s-l2/index.html" class="no-external"></a></p><a href="./posts/8l8s/8l8s-l2/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/8l8s/8l8s-l2/8L8S_Lesson_2.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/8l8s/8l8s-l2/index.html" class="no-external"></a></p>
+<p><a href="./posts/8l8s/8l8s-l2/index.html"> <img src="./posts/8l8s/8l8s-l2/8L8S_Lesson_2.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./posts/8l8s/8l8s-l2/index.html">
 <h3 class="no-anchor listing-title">
-<a href="./posts/8l8s/8l8s-l2/index.html" class="no-external">8 Lessons In 8 Semesters: Lesson 2</a>
+8 Lessons In 8 Semesters: Lesson 2
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/8l8s/8l8s-l2/index.html" class="no-external"></a>
+
 </div>
+</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('8 Lessons In 8 Semesters'); return false;">
 8 Lessons In 8 Semesters
 </div>
 </div>
+<a href="./posts/8l8s/8l8s-l2/index.html">
 <div class="listing-description">
-<a href="./posts/8l8s/8l8s-l2/index.html" class="no-external">💡&nbsp; Are you confrontational or conflict avoidant? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How has this trait changed for you over time? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How has this trait impacted your life? <br></a>
+💡&nbsp; Are you confrontational or conflict avoidant? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How has this trait changed for you over time? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How has this trait impacted your life? <br>
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./posts/8l8s/8l8s-l2/index.html" class="no-external">
+<a href="./posts/8l8s/8l8s-l2/index.html">
 <div class="listing-date">
 Jan 22, 2024
 </div>
@@ -578,30 +565,32 @@ Diarmuid Brady
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="8 Lessons In 8 Semesters" data-listing-date-sort="1705276800000" data-listing-file-modified-sort="1720543383471" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="419">
+<div class="quarto-post image-right" data-index="11" data-categories="8 Lessons In 8 Semesters" data-listing-date-sort="1705276800000" data-listing-file-modified-sort="1715881758467" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="thumbnail">
-<p><a href="./posts/8l8s/8l8s-l1/index.html" class="no-external"></a></p><a href="./posts/8l8s/8l8s-l1/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/8l8s/8l8s-l1/8L8S_Lesson_1.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/8l8s/8l8s-l1/index.html" class="no-external"></a></p>
+<p><a href="./posts/8l8s/8l8s-l1/index.html"> <img src="./posts/8l8s/8l8s-l1/8L8S_Lesson_1.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./posts/8l8s/8l8s-l1/index.html">
 <h3 class="no-anchor listing-title">
-<a href="./posts/8l8s/8l8s-l1/index.html" class="no-external">8 Lessons In 8 Semesters: Lesson 1</a>
+8 Lessons In 8 Semesters: Lesson 1
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/8l8s/8l8s-l1/index.html" class="no-external"></a>
+
 </div>
+</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('8 Lessons In 8 Semesters'); return false;">
 8 Lessons In 8 Semesters
 </div>
 </div>
+<a href="./posts/8l8s/8l8s-l1/index.html">
 <div class="listing-description">
-<a href="./posts/8l8s/8l8s-l1/index.html" class="no-external">💡&nbsp; What do you define as a shallow and a deep relationship? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How do you prioritise and maintain close relationships? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What is your experience with shallow and…<br></a>
+💡&nbsp; What do you define as a shallow and a deep relationship? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How do you prioritise and maintain close relationships? <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What is…<br>
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./posts/8l8s/8l8s-l1/index.html" class="no-external">
+<a href="./posts/8l8s/8l8s-l1/index.html">
 <div class="listing-date">
 Jan 15, 2024
 </div>
@@ -611,30 +600,32 @@ Diarmuid Brady
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="8 Lessons In 8 Semesters" data-listing-date-sort="1704672000000" data-listing-file-modified-sort="1720543383471" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="380">
+<div class="quarto-post image-right" data-index="12" data-categories="8 Lessons In 8 Semesters" data-listing-date-sort="1704672000000" data-listing-file-modified-sort="1718436569226" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./posts/8l8s/8l8s-intro/index.html" class="no-external"></a></p><a href="./posts/8l8s/8l8s-intro/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/8l8s/8l8s-intro/8L8S_Intro.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/8l8s/8l8s-intro/index.html" class="no-external"></a></p>
+<p><a href="./posts/8l8s/8l8s-intro/index.html"> <img src="./posts/8l8s/8l8s-intro/8L8S_Intro.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./posts/8l8s/8l8s-intro/index.html">
 <h3 class="no-anchor listing-title">
-<a href="./posts/8l8s/8l8s-intro/index.html" class="no-external">8 Lessons In 8 Semesters: Introduction</a>
+8 Lessons In 8 Semesters: Introduction
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/8l8s/8l8s-intro/index.html" class="no-external"></a>
+
 </div>
+</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('8 Lessons In 8 Semesters'); return false;">
 8 Lessons In 8 Semesters
 </div>
 </div>
+<a href="./posts/8l8s/8l8s-intro/index.html">
 <div class="listing-description">
-<a href="./posts/8l8s/8l8s-intro/index.html" class="no-external">When I was younger, a recurring phrase I often heard was, “Your college years are some of the best years of your life.” Me being me, I took this assertion quite seriously.…</a>
+When I was younger, a recurring phrase I often heard was, “Your college years are some of the best years of your life.” Me being me, I took this assertion quite seriously.…
 </div>
+</a>
 </div>
 <div class="metadata">
-<a href="./posts/8l8s/8l8s-intro/index.html" class="no-external">
+<a href="./posts/8l8s/8l8s-intro/index.html">
 <div class="listing-date">
 Jan 8, 2024
 </div>
@@ -684,7 +675,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const onCopySuccess = function(e) {
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -716,50 +718,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
   });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/diarmuidbrady\.github\.io\/blog\/");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+  function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
+      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -769,17 +732,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start',
+      placement: 'bottom-start'
     };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -791,130 +745,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
-        return container.innerHTML
-      } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
-    }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
-          }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
+      return note.innerHTML;
     });
   }
       let selectedAnnoteEl;
@@ -958,7 +789,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
-            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -984,32 +814,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1070,7 +874,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-
 
 
 
