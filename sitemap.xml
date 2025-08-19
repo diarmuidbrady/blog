@@ -2,70 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://thetenaciouslife.com/about.html</loc>
-    <lastmod>2025-08-12T10:37:50.444Z</lastmod>
+    <lastmod>2025-08-19T08:35:34.193Z</lastmod>
   </url>
   <url>
     <loc>https://thetenaciouslife.com/posts/coding/python_course/index.html</loc>
-    <lastmod>2025-08-12T10:37:48.762Z</lastmod>
+    <lastmod>2025-08-19T08:35:33.080Z</lastmod>
   </url>
   <url>
-    <loc>https://thetenaciouslife.com/posts/road-to-porto/02-early-momentum/index.html</loc>
-    <lastmod>2025-08-12T10:37:46.533Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thetenaciouslife.com/posts/8l8s/8l8s-l7/index.html</loc>
-    <lastmod>2025-08-12T10:37:45.838Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thetenaciouslife.com/posts/8l8s/8l8s-l6/index.html</loc>
-    <lastmod>2025-08-12T10:37:45.226Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thetenaciouslife.com/posts/8l8s/8l8s-l3/index.html</loc>
-    <lastmod>2025-08-12T10:37:44.494Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thetenaciouslife.com/posts/8l8s/8l8s-l5/index.html</loc>
-    <lastmod>2025-08-12T10:37:43.900Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thetenaciouslife.com/posts/chatgpt-evaluation/chatgpt-p3/index.html</loc>
-    <lastmod>2025-08-12T10:37:43.312Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thetenaciouslife.com/posts/chatgpt-evaluation/chatgpt-p1/index.html</loc>
-    <lastmod>2025-08-12T10:37:42.514Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thetenaciouslife.com/posts/chatgpt-evaluation/chatgpt-p2/index.html</loc>
-    <lastmod>2025-08-12T10:37:42.944Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thetenaciouslife.com/posts/8l8s/8l8s-l2/index.html</loc>
-    <lastmod>2025-08-12T10:37:43.614Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thetenaciouslife.com/posts/8l8s/8l8s-l4/index.html</loc>
-    <lastmod>2025-08-12T10:37:44.209Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thetenaciouslife.com/posts/8l8s/8l8s-l8/index.html</loc>
-    <lastmod>2025-08-12T10:37:44.937Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thetenaciouslife.com/posts/8l8s/8l8s-l1/index.html</loc>
-    <lastmod>2025-08-12T10:37:45.511Z</lastmod>
+    <loc>https://thetenaciouslife.com/posts/road-to-porto/03-overtraining/index.html</loc>
+    <lastmod>2025-08-19T08:35:30.805Z</lastmod>
   </url>
   <url>
     <loc>https://thetenaciouslife.com/posts/8l8s/8l8s-intro/index.html</loc>
-    <lastmod>2025-08-12T10:37:46.134Z</lastmod>
+    <lastmod>2025-08-19T08:35:30.126Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thetenaciouslife.com/posts/8l8s/8l8s-l1/index.html</loc>
+    <lastmod>2025-08-19T08:35:29.395Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thetenaciouslife.com/posts/8l8s/8l8s-l8/index.html</loc>
+    <lastmod>2025-08-19T08:35:28.722Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thetenaciouslife.com/posts/8l8s/8l8s-l4/index.html</loc>
+    <lastmod>2025-08-19T08:35:27.575Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thetenaciouslife.com/posts/8l8s/8l8s-l2/index.html</loc>
+    <lastmod>2025-08-19T08:35:26.800Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thetenaciouslife.com/posts/chatgpt-evaluation/chatgpt-p2/index.html</loc>
+    <lastmod>2025-08-19T08:35:26.076Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thetenaciouslife.com/posts/chatgpt-evaluation/chatgpt-p1/index.html</loc>
+    <lastmod>2025-08-19T08:35:25.644Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thetenaciouslife.com/posts/chatgpt-evaluation/chatgpt-p3/index.html</loc>
+    <lastmod>2025-08-19T08:35:26.491Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thetenaciouslife.com/posts/8l8s/8l8s-l5/index.html</loc>
+    <lastmod>2025-08-19T08:35:27.205Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thetenaciouslife.com/posts/8l8s/8l8s-l3/index.html</loc>
+    <lastmod>2025-08-19T08:35:28.040Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thetenaciouslife.com/posts/8l8s/8l8s-l6/index.html</loc>
+    <lastmod>2025-08-19T08:35:29.058Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thetenaciouslife.com/posts/8l8s/8l8s-l7/index.html</loc>
+    <lastmod>2025-08-19T08:35:29.866Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thetenaciouslife.com/posts/road-to-porto/02-early-momentum/index.html</loc>
+    <lastmod>2025-08-19T08:35:30.500Z</lastmod>
   </url>
   <url>
     <loc>https://thetenaciouslife.com/posts/road-to-porto/01-the-decision/index.html</loc>
-    <lastmod>2025-08-12T10:37:46.842Z</lastmod>
+    <lastmod>2025-08-19T08:35:31.104Z</lastmod>
   </url>
   <url>
     <loc>https://thetenaciouslife.com/index.html</loc>
-    <lastmod>2025-08-12T10:37:50.161Z</lastmod>
+    <lastmod>2025-08-19T08:35:33.939Z</lastmod>
   </url>
 </urlset>
