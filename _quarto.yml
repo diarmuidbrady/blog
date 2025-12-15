@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  favicon: favicon.png
+  favicon: logo.png
   title: "Blog"
   google-analytics: "G-Y9K5WWKHZ3"
   navbar:
